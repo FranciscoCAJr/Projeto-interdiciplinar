@@ -1,0 +1,116 @@
+.container {
+    min-height: 100vh;
+    background-color: rgb(135, 190, 235);
+    width: auto;
+    overflow: hidden;
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+    "header header header header header"
+    "div div div div div"
+    "main main main main main"
+    "footer footer footer footer footer";
+}
+header{
+    background-color: rgb(2, 9, 32);
+    grid-area:header ;
+}
+#divmenu{
+    grid-area: div;
+    background-color: rgb(131, 138, 145);
+  
+}
+main{
+    grid-area: main;
+    background-color: rgb(135, 190, 235);
+    text-align: center;
+}
+footer{
+    grid-area: footer;
+    background-color: rgba(13, 17, 53, 0.904);
+    min-height: 12px;
+    bottom: 0;
+    max-height: 30px;
+}
+body{
+    color: aliceblue;
+}
+
+ul li{
+    display: inline-block;
+    padding: 5px 30px;
+}
+#box1{
+	width: 100%;
+	height:auto;
+	margin: 25px;
+	padding:10px;
+    border-radius: 25px;
+}
+.box2{
+    background-color: aliceblue;
+    width: 100%;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+    section{
+        background-color: white;
+        color: black;
+    }
+    table{
+        vertical-align: middle;
+    }
+    tr{
+        background-color: rgb(135, 190, 235);
+        border-radius: 30px;
+    }
+    tr th{
+        padding: 24px;
+        border-radius: 25px;
+        background-color: rgb(5, 38, 65);
+    }
+    .tabelahorario tr th,td{
+        background-color: ghostwhite;
+        border-radius: 25px;
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        
+    }
+    .box3{
+        margin: auto;    
+        border: 3px solid ;
+        width: 55%;
+        padding: 10px;
+    }
+    #login1{
+        border: 3px solid ghostwhite;
+        padding: auto;
+    }
+    form{
+        display: inline-block;
+    }
+    input{
+        width: 250px;
+        height: 30px;
+    }
+    .footerfundo{
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+    table{
+        width: inherit;
+    }
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
